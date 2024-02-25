@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #FFFFFF;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 }
@@ -16,5 +16,49 @@ h2{
 h3{
     background-color: #FAD961;
     background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+} */
 
+body {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    color: #333333; /* Color de texto para mejorar el contraste */
+    font-size: 16px; /* Tamaño de fuente predeterminado */
+    line-height: 1.5; /* Espaciado de línea predeterminado */
+    padding: 20px; /* Añade relleno alrededor del contenido */
+}
+
+h1, h2, h3 {
+    color: #080808; /* Color de texto para encabezados */
+    padding: 10px; /* Añade relleno alrededor de los encabezados */
+    display: inline; /* Ajusta los encabezados para ocupar solo el espacio necesario */
+}
+
+h1 {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    font-size: 24px; /* Tamaño de fuente más grande para h1 */
+}
+
+h2 {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    font-size: 20px; /* Tamaño de fuente más grande para h2 */
+}
+
+h3 {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    font-size: 18px; /* Tamaño de fuente más grande para h3 */
+}
+
+footer {
+    padding: 5px; /* Agrega espacio alrededor de la imagen */
+    text-align: center; /* Centra la imagen */
+}
+
+footer img {
+    border: 3px solid #333; /* Agrega un borde de 3px sólido de color gris oscuro */
+    border-radius: 8px; /* Agrega esquinas redondeadas */
+    max-width: 100%; /* Asegura que la imagen no se salga de su contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
 }
